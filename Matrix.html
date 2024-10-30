@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Addition</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #eef2f3;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #ad8310;
+        }
+        .matrix-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .matrix {
+            margin: 0 20px;
+            text-align: center;
+        }
+        input[type="number"] {
+            width: 60px;
+            padding: 8px;
+            margin: 5px;
+            border: 2px solid #a5ca22;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input[type="number"]:focus {
+            border-color: #bbc119;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #83cf37;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #90c515;
+        }
+        #result {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        #result table {
+            border-collapse: collapse;
+        }
+        #result td {
+            border: 1px solid #0d0d0d;
+            padding: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Matrix Addition (2x2)</h2>
+        <div class="matrix-container">
+        <div class="matrix">
+            <h3>Matrix A</h3>
+            <input type="number" id="a11"> <input type="number" id="a12"><br>
+            <input type="number" id="a21"> <input type="number" id="a22"><br>
+        </div>
+        <div class="matrix">
+            <h3>Matrix B</h3>
+            <input type="number" id="b11"> <input type="number" id="b12"><br>
+            <input type="number" id="b21"> <input type="number" id="b22"><br>
+        </div>
+    </div>
+
+    <button onclick="addMatrices()">Add Matrices</button>
+
+    <h3>Result</h3>
+    <div id="result"></div>
+
+    <script src="matrix.js"></script>
+    <button>
+        <a href="index.html">BACK TO PROFILE</a> 
+    </button>
+</body>
+</html>
