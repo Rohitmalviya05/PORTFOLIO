@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #e0eafd, #cfdef3); 
+    background: linear-gradient(135deg, #e0eafd, #b9cfef); 
     color: #333;
     margin: 0;
     padding: 20px;
@@ -27,7 +27,7 @@ img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid #703779;
+    border: 5px solid #0f0f10;
     width: 150px;
     height: 150px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@ ul {
 
 li::before {
     content: "✔"; 
-    color: rgb(150, 5, 34); 
+    color: rgb(10, 211, 27); 
     margin-right: 10px; 
     font-size: 16px;
     font-weight: 500;
@@ -63,12 +63,12 @@ p {
 
 a {
     text-decoration: none;
-    color: #096c05;
+    color: #2084e2;
     font-weight: bold;
 }
 
 a:hover {
-    color: #871065;
+    color: #37d551;
 }
 
 
@@ -78,7 +78,7 @@ a:hover {
 
 
 .email {
-    background-color: #1752a3;
+    background-color: #14e65a;
     color: white;
     padding: 10px;
     border-radius:4px;
